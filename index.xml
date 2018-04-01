@@ -6,10 +6,19 @@
     <description>Recent content on Crazyrobot Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Jan 2018 22:47:03 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Apr 2018 18:29:54 -0400</lastBuildDate>
     
 	<atom:link href="http://blog.crazyrobot.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Páginas Estáticas</title>
+      <link>http://blog.crazyrobot.net/posts/2018-04-01-pagina-estatica/</link>
+      <pubDate>Sun, 01 Apr 2018 18:29:54 -0400</pubDate>
+      
+      <guid>http://blog.crazyrobot.net/posts/2018-04-01-pagina-estatica/</guid>
+      <description>Esta es una nueva encarnación de este blog. Decidí regresar a la generación de páginas estáticas principalmente porque ya estaba cansado de mantener wordpress y un &amp;ldquo;server&amp;rdquo; donde hospedarlo. A pesar de que no es mucho trabajo, cada vez me daba más pereza tener que ocuparme de hacer actualizaciones, estar pendiente de los emails de Amazon sobre mantenimiento del hardware, etc. Wordpress ofrece mucho más de lo que realmente necesito para mantener un sitio donde publicar cosas de vez en cuando.</description>
+    </item>
     
     <item>
       <title>Do you feel lucky, punk?</title>

@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://blog.crazyrobot.net/posts/2018-04-01-pagina-estatica/</loc>
+    <lastmod>2018-04-01T18:29:54-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.crazyrobot.net/2018/01/06/feel-lucky-punk/</loc>
     <lastmod>2018-01-06T22:47:03+00:00</lastmod>
   </url>
@@ -594,7 +599,7 @@
   
   <url>
     <loc>http://blog.crazyrobot.net/</loc>
-    <lastmod>2018-01-06T22:47:03+00:00</lastmod>
+    <lastmod>2018-04-01T18:29:54-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -642,7 +647,7 @@
   
   <url>
     <loc>http://blog.crazyrobot.net/posts/</loc>
-    <lastmod>2018-01-06T22:47:03+00:00</lastmod>
+    <lastmod>2018-04-01T18:29:54-04:00</lastmod>
     <priority>0</priority>
   </url>
   
