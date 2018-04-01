@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Literatura on Crazyrobot Blog</title>
-    <link>http://www.crazyrobot.net/categories/literatura/</link>
+    <link>http://blog.crazyrobot.net/categories/literatura/</link>
     <description>Recent content in Literatura on Crazyrobot Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 07 Sep 2012 22:49:11 +0000</lastBuildDate>
     
-	<atom:link href="http://www.crazyrobot.net/categories/literatura/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://blog.crazyrobot.net/categories/literatura/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fantasmagoría (cuento)</title>
-      <link>http://www.crazyrobot.net/2012/09/07/el-mensaje/</link>
+      <link>http://blog.crazyrobot.net/2012/09/07/el-mensaje/</link>
       <pubDate>Fri, 07 Sep 2012 22:49:11 +0000</pubDate>
       
-      <guid>http://www.crazyrobot.net/2012/09/07/el-mensaje/</guid>
+      <guid>http://blog.crazyrobot.net/2012/09/07/el-mensaje/</guid>
       <description>Gracias a la ciencia, la humanidad había logrado por fin comunicarse con los muertos. Una cadena de avances tecnológicos (basados en las propiedades metafísicas del Bosón de Higgs) había permitido la fabricación de sensores y transmisores nunca antes vistos. Esta tecnología permitiría a la sazón intercambiar mensajes con el ultratumba. El mundo, aterrado, observó por YouTube a un grupo de eminentes profesores recibir las primeras señales. Era el año 2048.</description>
     </item>
     

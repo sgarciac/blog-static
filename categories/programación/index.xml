@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programación on Crazyrobot Blog</title>
-    <link>http://www.crazyrobot.net/categories/programaci%C3%B3n/</link>
+    <link>http://blog.crazyrobot.net/categories/programaci%C3%B3n/</link>
     <description>Recent content in Programación on Crazyrobot Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 26 Feb 2014 15:13:52 +0000</lastBuildDate>
     
-	<atom:link href="http://www.crazyrobot.net/categories/programaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://blog.crazyrobot.net/categories/programaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Un sistema universal de timestamps</title>
-      <link>http://www.crazyrobot.net/2014/02/26/idea-de-un-servicio-basico-de-internet/</link>
+      <link>http://blog.crazyrobot.net/2014/02/26/idea-de-un-servicio-basico-de-internet/</link>
       <pubDate>Wed, 26 Feb 2014 15:13:52 +0000</pubDate>
       
-      <guid>http://www.crazyrobot.net/2014/02/26/idea-de-un-servicio-basico-de-internet/</guid>
+      <guid>http://blog.crazyrobot.net/2014/02/26/idea-de-un-servicio-basico-de-internet/</guid>
       <description>Será que ya existe en internet algo parecido a un servicio que permita dejar registro de que, al momento de crear ese registro, uno está en posesión de tal o cual documento?
 Caso de uso:
 Juanito debe entregar un ensayo a su profesor de economía a mas tardar el lunes. El internet de Juanito esta caido y Juanito está enfermo y no podrá ir a la universidad el lunes. Juanito verá a su profesor el miercoles siguiente y podra entregarle el ensayo ese día en una llave USB, pero debe demostrar que lo que está entregando el miercoles ya estaba terminado el domingo.</description>
@@ -24,141 +24,141 @@ Juanito debe entregar un ensayo a su profesor de economía a mas tardar el lunes
     
     <item>
       <title>PixelArt fun</title>
-      <link>http://www.crazyrobot.net/2011/07/12/pixelart-to-vector/</link>
+      <link>http://blog.crazyrobot.net/2011/07/12/pixelart-to-vector/</link>
       <pubDate>Tue, 12 Jul 2011 14:54:41 +0000</pubDate>
       
-      <guid>http://www.crazyrobot.net/2011/07/12/pixelart-to-vector/</guid>
+      <guid>http://blog.crazyrobot.net/2011/07/12/pixelart-to-vector/</guid>
       <description>This post has been moved here
 &amp;nbsp;</description>
     </item>
     
     <item>
       <title>How to extend Oasis Montaj using C#</title>
-      <link>http://www.crazyrobot.net/2011/05/10/how-to-extend-oasis-montaj-using-c/</link>
+      <link>http://blog.crazyrobot.net/2011/05/10/how-to-extend-oasis-montaj-using-c/</link>
       <pubDate>Tue, 10 May 2011 15:34:19 +0000</pubDate>
       
-      <guid>http://www.crazyrobot.net/2011/05/10/how-to-extend-oasis-montaj-using-c/</guid>
+      <guid>http://blog.crazyrobot.net/2011/05/10/how-to-extend-oasis-montaj-using-c/</guid>
       <description>this post has been moved here</description>
     </item>
     
     <item>
       <title>TweetMix</title>
-      <link>http://www.crazyrobot.net/2011/03/04/tweetmix/</link>
+      <link>http://blog.crazyrobot.net/2011/03/04/tweetmix/</link>
       <pubDate>Fri, 04 Mar 2011 13:04:21 +0000</pubDate>
       
-      <guid>http://www.crazyrobot.net/2011/03/04/tweetmix/</guid>
+      <guid>http://blog.crazyrobot.net/2011/03/04/tweetmix/</guid>
       <description>Hagamos un recuento desordenado de TweetMix. La idea se me ocurrió hace un par de semanas: coger un &amp;#8220;chat-bot&amp;#8220;, alimentarlo con los tweets de un usuario y ponerlo a decir bobadas. El chat-bot que usé fue escrito en perl y funciona al estilo de mega-hal, un viejo chat-bot con el que Alejo, Javier y yo jugabamos hace ya mas de diez años, cuando el internet todavía tenía gracia. Si quieren documentarse al respecto pueden buscar por cadenas de Markov.</description>
     </item>
     
     <item>
       <title>The truth about Lisp</title>
-      <link>http://www.crazyrobot.net/2011/01/10/the-truth-about-lisp/</link>
+      <link>http://blog.crazyrobot.net/2011/01/10/the-truth-about-lisp/</link>
       <pubDate>Mon, 10 Jan 2011 13:51:46 +0000</pubDate>
       
-      <guid>http://www.crazyrobot.net/2011/01/10/the-truth-about-lisp/</guid>
+      <guid>http://blog.crazyrobot.net/2011/01/10/the-truth-about-lisp/</guid>
       <description>&amp;#8220;Lisp was invented a long time ago, before java, before C, before fortran, before computers, before people, before the earth was built. The universe itself is a lisp program so trivial that no true lisper would even bother implementing it.&amp;#8221;
  Ver el resto</description>
     </item>
     
     <item>
       <title>Ventanas, Dialogos, Botones</title>
-      <link>http://www.crazyrobot.net/2010/12/02/ventanas-dialogos-botones/</link>
+      <link>http://blog.crazyrobot.net/2010/12/02/ventanas-dialogos-botones/</link>
       <pubDate>Thu, 02 Dec 2010 15:29:56 +0000</pubDate>
       
-      <guid>http://www.crazyrobot.net/2010/12/02/ventanas-dialogos-botones/</guid>
+      <guid>http://blog.crazyrobot.net/2010/12/02/ventanas-dialogos-botones/</guid>
       <description>El siguiente caso ilustra bien las diferencias de éstilo que veo entre los mundos java y .Net.
 En la librería para aplicaciones gráficas de .Net, un programa puede abrir cualquier Ventana en modo Dialogo. Todos los Botones tienen asociado un atributo llamado DialogResult. Cuando este atributo tiene un valor en un botón que es oprimido, la Ventana que contiene el botón, si está en modo Dialogo, se cierra y retorna el valor asociado al botón.</description>
     </item>
     
     <item>
       <title>Crítica de los IDEs (segunda parte)</title>
-      <link>http://www.crazyrobot.net/2010/08/15/critica-de-los-ides-segunda-parte/</link>
+      <link>http://blog.crazyrobot.net/2010/08/15/critica-de-los-ides-segunda-parte/</link>
       <pubDate>Sun, 15 Aug 2010 01:48:39 +0000</pubDate>
       
-      <guid>http://www.crazyrobot.net/2010/08/15/critica-de-los-ides-segunda-parte/</guid>
+      <guid>http://blog.crazyrobot.net/2010/08/15/critica-de-los-ides-segunda-parte/</guid>
       <description>Inspirado por un buen comentario de Manuel Cerón, estuvé pensando un rato sobre las verdaderas razones por las cuales usar eclipse no me llega a parecer del todo placentero. El primer comentario de Manuel es bastante acertado: el tiempo de arranque de eclipse es irrelevante dado que arrancar eclipse es algo que se hace muy raramente. En mi caso, por ejemplo, usualmente lanzo eclipse el lunes en la mañana y lo vuelvo a cerrar el viernes en la noche.</description>
     </item>
     
     <item>
       <title>Crítica de los IDEs</title>
-      <link>http://www.crazyrobot.net/2010/08/13/critica-de-los-ides/</link>
+      <link>http://blog.crazyrobot.net/2010/08/13/critica-de-los-ides/</link>
       <pubDate>Fri, 13 Aug 2010 16:50:22 +0000</pubDate>
       
-      <guid>http://www.crazyrobot.net/2010/08/13/critica-de-los-ides/</guid>
+      <guid>http://blog.crazyrobot.net/2010/08/13/critica-de-los-ides/</guid>
       <description>Durante los últimos dos años he usado eclipse constantemente en mi trabajo. Aca van un par de reflexiones sobre esta herramienta de desarrollo y en general sobre todas las herramientas de ese estilo (conocidas como IDEs, por las siglas en inglés de Ambiente de Desarrollo Integrado).
 Poco ligero: Eclipse no es una herramienta ligera. Lanzarla, aun en un computador reciente, toma un tiempo considerable. Mas vale tener un equipo con bastante memoria.</description>
     </item>
     
     <item>
       <title>Ventanas rotas</title>
-      <link>http://www.crazyrobot.net/2010/07/13/277/</link>
+      <link>http://blog.crazyrobot.net/2010/07/13/277/</link>
       <pubDate>Tue, 13 Jul 2010 23:35:15 +0000</pubDate>
       
-      <guid>http://www.crazyrobot.net/2010/07/13/277/</guid>
+      <guid>http://blog.crazyrobot.net/2010/07/13/277/</guid>
       <description>La teoría de las ventanas rotas sostiene que mantener la pulcritud de un vecindario ayuda a prevenir el vandalismo y otras formas de mal comportamiento. La idea es que una persona se sentirá mas culpable de romper una ventana de un edificio en perfecto estado que de romper una ventana en un edificio que ya tiene varias ventanas rotas. De esto se desprende entonces que para mantener un vecindario en buen estado hay que reparar rapidamente los pequeños daños que aparecen constantemente, por mínimos que parezcan.</description>
     </item>
     
     <item>
       <title>‘Tinkering’, bricolaje, cacharreo</title>
-      <link>http://www.crazyrobot.net/2010/04/02/tinkering-bricolaje-cacharreo/</link>
+      <link>http://blog.crazyrobot.net/2010/04/02/tinkering-bricolaje-cacharreo/</link>
       <pubDate>Fri, 02 Apr 2010 15:49:27 +0000</pubDate>
       
-      <guid>http://www.crazyrobot.net/2010/04/02/tinkering-bricolaje-cacharreo/</guid>
+      <guid>http://blog.crazyrobot.net/2010/04/02/tinkering-bricolaje-cacharreo/</guid>
       <description>Los usuarios de computador necesitan conocer cada vez menos la manera como un computador funciona. Si las tripas de la máquina se vuelven cada día más invisible, esto se debe a que el usuario puede ahora controlar el computador usando interfaces gráficas avanzadas. Estas interfaces permiten controlar el computador usando imagenes que representan objetos fisicos (botones, ventanas, etc).
 Comparemos esto con lo que había hace un par de decadas. En ese entonces, el usuario controlaba el computador escribiendo comandos que la máquina ejecutaba.</description>
     </item>
     
     <item>
       <title>Abstracción sintactica</title>
-      <link>http://www.crazyrobot.net/2010/03/19/abstraccion-sintactica/</link>
+      <link>http://blog.crazyrobot.net/2010/03/19/abstraccion-sintactica/</link>
       <pubDate>Fri, 19 Mar 2010 18:35:39 +0000</pubDate>
       
-      <guid>http://www.crazyrobot.net/2010/03/19/abstraccion-sintactica/</guid>
+      <guid>http://blog.crazyrobot.net/2010/03/19/abstraccion-sintactica/</guid>
       <description>Le Coq - Joan Miro   Recordemos algunas nociones básicas.  La misión del desarrollador de software consiste en escribir programas que sean faciles de entender. Un programa es facil de entender cuando esta escrito como un conjunto sencillo de relaciones entre conceptos. Como estos conceptos pueden ser a su vez complejos, el programador retiene de ellos unicamente la información necesaria para entender sus relaciones con los demás conceptos.</description>
     </item>
     
     <item>
       <title>Programación interactiva</title>
-      <link>http://www.crazyrobot.net/2010/03/12/programacion-interactiva/</link>
+      <link>http://blog.crazyrobot.net/2010/03/12/programacion-interactiva/</link>
       <pubDate>Fri, 12 Mar 2010 18:58:29 +0000</pubDate>
       
-      <guid>http://www.crazyrobot.net/2010/03/12/programacion-interactiva/</guid>
+      <guid>http://blog.crazyrobot.net/2010/03/12/programacion-interactiva/</guid>
       <description>Una de las cosas que mas me gustan de programar en Lisp es que encuentro facil mantener la concentración cuando lo hago. Creo que esto se debe en buena parte a la programación interactiva que facilitan los ambientes de desarrollo en lisp. La programación interactiva consiste en ir modificando un programa poco a poco mientras éste se encuentra activo. Es decir, el termino de programación interactiva no tiene que ver con el estilo en el queesta escrito un programa sino con el proceso de escritura del código.</description>
     </item>
     
     <item>
       <title>Sobre la importancia de saber programar en C</title>
-      <link>http://www.crazyrobot.net/2010/03/05/sobre-la-importancia-de-saber-programar-en-c/</link>
+      <link>http://blog.crazyrobot.net/2010/03/05/sobre-la-importancia-de-saber-programar-en-c/</link>
       <pubDate>Fri, 05 Mar 2010 18:26:55 +0000</pubDate>
       
-      <guid>http://www.crazyrobot.net/2010/03/05/sobre-la-importancia-de-saber-programar-en-c/</guid>
+      <guid>http://blog.crazyrobot.net/2010/03/05/sobre-la-importancia-de-saber-programar-en-c/</guid>
       <description>Hace cerca de 15 años, en la Universidad de los Andes, la programación se enseñaba usando &amp;#8220;C&amp;#8220;, un lenguaje de programación muy popular desarrollado en los 70, en paralelo con el desarrollo del sistema operativo UNIX. En los 90, lenguajes de programación como Java fueron reemplazando al lenguaje C tanto en la empresa como en las aulas. Hoy en día, según me dicen, la programación se enseña usando Java y los estudiantes simplemente no aprenden C.</description>
     </item>
     
     <item>
       <title>Diferentes trabajos en programación</title>
-      <link>http://www.crazyrobot.net/2010/02/22/diferentes-trabajos-en-programacion/</link>
+      <link>http://blog.crazyrobot.net/2010/02/22/diferentes-trabajos-en-programacion/</link>
       <pubDate>Mon, 22 Feb 2010 16:56:51 +0000</pubDate>
       
-      <guid>http://www.crazyrobot.net/2010/02/22/diferentes-trabajos-en-programacion/</guid>
+      <guid>http://blog.crazyrobot.net/2010/02/22/diferentes-trabajos-en-programacion/</guid>
       <description>Como programador he pasado por solo tres trabajos diferentes. El primero como freelance (es decir, como programador independiente) en Colombia, labor bastante desagradecida excepto por la experiencia que permite adquirir. Creo que en Colombia hay mucha gente trabajando de esa manera no tanto por gusto como por la dificultad de encontrar un empleo estable. Puede que para una persona ya reconocida en el medio puede ser atractivo vivir haciendo freelancing por la libertad que permite.</description>
     </item>
     
     <item>
       <title>Menos es más</title>
-      <link>http://www.crazyrobot.net/2010/02/03/menos-es-mas/</link>
+      <link>http://blog.crazyrobot.net/2010/02/03/menos-es-mas/</link>
       <pubDate>Wed, 03 Feb 2010 01:16:47 +0000</pubDate>
       
-      <guid>http://www.crazyrobot.net/2010/02/03/menos-es-mas/</guid>
+      <guid>http://blog.crazyrobot.net/2010/02/03/menos-es-mas/</guid>
       <description>Manuel Cerón opina en mi post anterior que la calidad de las interfaces de usuario de las aplicaciones en la web no es aceptable. Para Manuel, estas interfaces no son ni siquiera comparable a las que tenían las aplicaciones de Windows 95. Siguiendo esta idea, lo ideal sería tener interfaces avanzadas unidas a las ventajas de la web (ubicuidad, propagación automática de mejoras, etc). La popularidad de las aplicaciones web hoy en día se explicaría no gracias a su ergonomía sino a pesar de carecer de ella.</description>
     </item>
     
     <item>
       <title>Por qué no creo que el iPhone, el iTablet y la AppStore sean la plataforma del futuro</title>
-      <link>http://www.crazyrobot.net/2010/01/25/por-que-no-creo-que-el-iphone-el-itablet-y-la-appstore-sean-la-plataforma-del-futuro/</link>
+      <link>http://blog.crazyrobot.net/2010/01/25/por-que-no-creo-que-el-iphone-el-itablet-y-la-appstore-sean-la-plataforma-del-futuro/</link>
       <pubDate>Mon, 25 Jan 2010 20:54:07 +0000</pubDate>
       
-      <guid>http://www.crazyrobot.net/2010/01/25/por-que-no-creo-que-el-iphone-el-itablet-y-la-appstore-sean-la-plataforma-del-futuro/</guid>
+      <guid>http://blog.crazyrobot.net/2010/01/25/por-que-no-creo-que-el-iphone-el-itablet-y-la-appstore-sean-la-plataforma-del-futuro/</guid>
       <description>Los programas de computadorse se escriben para una plataforma determinada: windows, macintosh, linux, la web, etc. Plataformas como Windows y Mac OS están bajo el control total de sus fabricantes. Esto hace que los desarrolladores de software y los usuarios que deciden usar estas plataformas se ponen a si mismos en una situación de dependencia frente a aquellos que las controlan.
 Una de las grandes ventajas de la web como plataforma de software es entonces el hecho de que no hay un único amo que la controle.</description>
     </item>

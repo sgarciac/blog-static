@@ -2,50 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Humor on Crazyrobot Blog</title>
-    <link>http://www.crazyrobot.net/categories/humor/</link>
+    <link>http://blog.crazyrobot.net/categories/humor/</link>
     <description>Recent content in Humor on Crazyrobot Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 07 Sep 2012 22:49:11 +0000</lastBuildDate>
     
-	<atom:link href="http://www.crazyrobot.net/categories/humor/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://blog.crazyrobot.net/categories/humor/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fantasmagoría (cuento)</title>
-      <link>http://www.crazyrobot.net/2012/09/07/el-mensaje/</link>
+      <link>http://blog.crazyrobot.net/2012/09/07/el-mensaje/</link>
       <pubDate>Fri, 07 Sep 2012 22:49:11 +0000</pubDate>
       
-      <guid>http://www.crazyrobot.net/2012/09/07/el-mensaje/</guid>
+      <guid>http://blog.crazyrobot.net/2012/09/07/el-mensaje/</guid>
       <description>Gracias a la ciencia, la humanidad había logrado por fin comunicarse con los muertos. Una cadena de avances tecnológicos (basados en las propiedades metafísicas del Bosón de Higgs) había permitido la fabricación de sensores y transmisores nunca antes vistos. Esta tecnología permitiría a la sazón intercambiar mensajes con el ultratumba. El mundo, aterrado, observó por YouTube a un grupo de eminentes profesores recibir las primeras señales. Era el año 2048.</description>
     </item>
     
     <item>
       <title>Conceptos</title>
-      <link>http://www.crazyrobot.net/2012/08/22/conceptos/</link>
+      <link>http://blog.crazyrobot.net/2012/08/22/conceptos/</link>
       <pubDate>Wed, 22 Aug 2012 18:48:22 +0000</pubDate>
       
-      <guid>http://www.crazyrobot.net/2012/08/22/conceptos/</guid>
+      <guid>http://blog.crazyrobot.net/2012/08/22/conceptos/</guid>
       <description>Cyber-Utopianism : &amp;#8220;A naîve belief in the emancipatory nature of online communication that rests on a stubborn refusal to acknowledge its downside&amp;#8221; (Evgeny Morozov)
 Californian Ideology : &amp;#8220;The Californian Ideology is a set of beliefs combining bohemian and anti-authoritarian attitudes from the counterculture of the 1960s with techno-utopianism and support for neoliberal economic policies. These beliefs are thought by some to have been characteristic of the culture of the IT industry in Silicon Valley and the West Coast of the United States during the dot-com bubble of the 1990s.</description>
     </item>
     
     <item>
       <title>The truth about Lisp</title>
-      <link>http://www.crazyrobot.net/2011/01/10/the-truth-about-lisp/</link>
+      <link>http://blog.crazyrobot.net/2011/01/10/the-truth-about-lisp/</link>
       <pubDate>Mon, 10 Jan 2011 13:51:46 +0000</pubDate>
       
-      <guid>http://www.crazyrobot.net/2011/01/10/the-truth-about-lisp/</guid>
+      <guid>http://blog.crazyrobot.net/2011/01/10/the-truth-about-lisp/</guid>
       <description>&amp;#8220;Lisp was invented a long time ago, before java, before C, before fortran, before computers, before people, before the earth was built. The universe itself is a lisp program so trivial that no true lisper would even bother implementing it.&amp;#8221;
  Ver el resto</description>
     </item>
     
     <item>
       <title>Uribe se entera de que la corte no aprobó el referendo</title>
-      <link>http://www.crazyrobot.net/2010/02/27/92/</link>
+      <link>http://blog.crazyrobot.net/2010/02/27/92/</link>
       <pubDate>Sat, 27 Feb 2010 00:41:22 +0000</pubDate>
       
-      <guid>http://www.crazyrobot.net/2010/02/27/92/</guid>
+      <guid>http://blog.crazyrobot.net/2010/02/27/92/</guid>
       <description>La gravedad de los últimos sucesos nacionales me obligan a interrumpir la programación habitual de este blog para revelar una grabación robada de lo que parece ser el presidente de la república enterandose de que la corte constitucional no aprobó el referendo reeleccionista.
 Sigan en sintonía</description>
     </item>

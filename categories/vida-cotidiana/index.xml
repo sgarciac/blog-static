@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vida Cotidiana on Crazyrobot Blog</title>
-    <link>http://www.crazyrobot.net/categories/vida-cotidiana/</link>
+    <link>http://blog.crazyrobot.net/categories/vida-cotidiana/</link>
     <description>Recent content in Vida Cotidiana on Crazyrobot Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 05 Oct 2012 12:51:06 +0000</lastBuildDate>
     
-	<atom:link href="http://www.crazyrobot.net/categories/vida-cotidiana/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://blog.crazyrobot.net/categories/vida-cotidiana/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Seb</title>
-      <link>http://www.crazyrobot.net/2012/10/05/seb/</link>
+      <link>http://blog.crazyrobot.net/2012/10/05/seb/</link>
       <pubDate>Fri, 05 Oct 2012 12:51:06 +0000</pubDate>
       
-      <guid>http://www.crazyrobot.net/2012/10/05/seb/</guid>
+      <guid>http://blog.crazyrobot.net/2012/10/05/seb/</guid>
       <description>Sebastián, a los 5 meses. Gordo adorado.  Hace un año nació Martín Sebastián. Comelón, de buen genio, generalmente serio, consentido por raticos.</description>
     </item>
     
     <item>
       <title>Commodore 64</title>
-      <link>http://www.crazyrobot.net/2012/03/14/commodore-64/</link>
+      <link>http://blog.crazyrobot.net/2012/03/14/commodore-64/</link>
       <pubDate>Wed, 14 Mar 2012 14:38:45 +0000</pubDate>
       
-      <guid>http://www.crazyrobot.net/2012/03/14/commodore-64/</guid>
+      <guid>http://blog.crazyrobot.net/2012/03/14/commodore-64/</guid>
       <description>El primer computador que usé con algo de conciencia fue un Commodore 64. Uno de los multiples eslabones de la cadena evolutiva que transformó al ordenador primitivo en el aparato domesticado y aséptico que es hoy en día. El commodore 64 era una especie de teclado que se conectaba al televisor. No había mouse. Era posible conectarle una unidad de lectura de discos (Diskettes de 5.25 pulgadas. Dysan, por favor). Cuando uno prendía el Commodore lo primero que veía era unos mensajes informando que se disponía de 64 kilobytes de memoria (de los cuales 32 ya estaban siendo usados por el sistema operativo).</description>
     </item>
     
     <item>
       <title>Nuevo trabajo</title>
-      <link>http://www.crazyrobot.net/2010/09/11/nuevo-trabajo/</link>
+      <link>http://blog.crazyrobot.net/2010/09/11/nuevo-trabajo/</link>
       <pubDate>Sat, 11 Sep 2010 00:39:47 +0000</pubDate>
       
-      <guid>http://www.crazyrobot.net/2010/09/11/nuevo-trabajo/</guid>
+      <guid>http://blog.crazyrobot.net/2010/09/11/nuevo-trabajo/</guid>
       <description>En mis empleos anteriores siempre fui parte de un equipo de programadores. Ahora, en cambio, soy el único programador del grupo. Es una situación nueva a la cual entro con algo de timidez y cautela.
 La empresa en la que trabajo se dedica a la exploración minera. Mis colegas son casi todos geofísicos que se encargan de interpretar los datos de terreno enviados por los geologos de campo. Se trata de mediciones de los campos magnéticos y gravitacionales, de la conductividad del terreno y otros valores físicos que pueden indicar la presencia de tal o cual mineral.</description>
     </item>

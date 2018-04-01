@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web on Crazyrobot Blog</title>
-    <link>http://www.crazyrobot.net/categories/web/</link>
+    <link>http://blog.crazyrobot.net/categories/web/</link>
     <description>Recent content in Web on Crazyrobot Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 04 Mar 2011 13:04:21 +0000</lastBuildDate>
     
-	<atom:link href="http://www.crazyrobot.net/categories/web/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://blog.crazyrobot.net/categories/web/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>TweetMix</title>
-      <link>http://www.crazyrobot.net/2011/03/04/tweetmix/</link>
+      <link>http://blog.crazyrobot.net/2011/03/04/tweetmix/</link>
       <pubDate>Fri, 04 Mar 2011 13:04:21 +0000</pubDate>
       
-      <guid>http://www.crazyrobot.net/2011/03/04/tweetmix/</guid>
+      <guid>http://blog.crazyrobot.net/2011/03/04/tweetmix/</guid>
       <description>Hagamos un recuento desordenado de TweetMix. La idea se me ocurrió hace un par de semanas: coger un &amp;#8220;chat-bot&amp;#8220;, alimentarlo con los tweets de un usuario y ponerlo a decir bobadas. El chat-bot que usé fue escrito en perl y funciona al estilo de mega-hal, un viejo chat-bot con el que Alejo, Javier y yo jugabamos hace ya mas de diez años, cuando el internet todavía tenía gracia. Si quieren documentarse al respecto pueden buscar por cadenas de Markov.</description>
     </item>
     
     <item>
       <title>Fin de gacetilla</title>
-      <link>http://www.crazyrobot.net/2010/10/13/fin-de-gacetilla/</link>
+      <link>http://blog.crazyrobot.net/2010/10/13/fin-de-gacetilla/</link>
       <pubDate>Wed, 13 Oct 2010 13:56:11 +0000</pubDate>
       
-      <guid>http://www.crazyrobot.net/2010/10/13/fin-de-gacetilla/</guid>
+      <guid>http://blog.crazyrobot.net/2010/10/13/fin-de-gacetilla/</guid>
       <description>Hace unos años Javier, Fidel, Juan Diego y yo creamos Gacetilla, un sitio para compartir noticias sobre Colombia. Hoy lo estamos cerrando oficialmente. Hemos pensado detener la aplicacion web y publicar todo el contenido de gacetilla como páginas estáticas. Lo que queriamos con Gacetilla era reunir en un solo lugar las noticias elegidas por los usuarios. También esperabamos que se generara discusión alrededor de esas noticias. Desafortunadamente Gacetilla nunca logró levantar una comunidad animada de usuarios y un sitio como gacetilla es una comunidad o no es nada.</description>
     </item>
     
     <item>
       <title>SEO: el nuevo anti-virus</title>
-      <link>http://www.crazyrobot.net/2010/04/23/seo-el-nuevo-anti-virus/</link>
+      <link>http://blog.crazyrobot.net/2010/04/23/seo-el-nuevo-anti-virus/</link>
       <pubDate>Fri, 23 Apr 2010 13:26:29 +0000</pubDate>
       
-      <guid>http://www.crazyrobot.net/2010/04/23/seo-el-nuevo-anti-virus/</guid>
+      <guid>http://blog.crazyrobot.net/2010/04/23/seo-el-nuevo-anti-virus/</guid>
       <description>Ayer un amigo me estuvo dando consejos para mejorar la posición de mis páginas en el indice de Google. Escuché estas recomendaciones con atención porque:
  Una página solo es visitada si tiene una buena posición en Google Para tener una buena posición en google hoy en día, una página modesta necesita valerse de todas las astucias posibles.  La mayoria de estas recomendaciones tienen que ver con detalles de cuando, como y donde usar diferentes elementos de las páginas HTML, es decir, detallitos menores cuya única importancia es la de tener influencia en los algoritmos que se ejecutan secretamente en los servidores del titán de internet.</description>
     </item>
