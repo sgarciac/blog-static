@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Crazyrobot Blog  | Abstracción sintactica</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.38-DEV" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    <link href='http://www.crazyrobot.net/dist/main.css' rel='stylesheet' type="text/css" />
+    
+      
+    
+
+    
+
+    <meta property="og:title" content="Abstracción sintactica" />
+<meta property="og:description" content="Le Coq - Joan Miro   Recordemos algunas nociones básicas.  La misión del desarrollador de software consiste en escribir programas que sean faciles de entender. Un programa es facil de entender cuando esta escrito como un conjunto sencillo de relaciones entre conceptos. Como estos conceptos pueden ser a su vez complejos, el programador retiene de ellos unicamente la información necesaria para entender sus relaciones con los demás conceptos." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.crazyrobot.net/2010/03/19/abstraccion-sintactica/" />
+
+
+
+<meta property="article:published_time" content="2010-03-19T18:35:39&#43;00:00"/>
+
+<meta property="article:modified_time" content="2010-03-19T18:35:39&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Abstracción sintactica">
+<meta itemprop="description" content="Le Coq - Joan Miro   Recordemos algunas nociones básicas.  La misión del desarrollador de software consiste en escribir programas que sean faciles de entender. Un programa es facil de entender cuando esta escrito como un conjunto sencillo de relaciones entre conceptos. Como estos conceptos pueden ser a su vez complejos, el programador retiene de ellos unicamente la información necesaria para entender sus relaciones con los demás conceptos.">
+
+
+<meta itemprop="datePublished" content="2010-03-19T18:35:39&#43;00:00" />
+<meta itemprop="dateModified" content="2010-03-19T18:35:39&#43;00:00" />
+<meta itemprop="wordCount" content="582">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Abstracción sintactica"/>
+<meta name="twitter:description" content="Le Coq - Joan Miro   Recordemos algunas nociones básicas.  La misión del desarrollador de software consiste en escribir programas que sean faciles de entender. Un programa es facil de entender cuando esta escrito como un conjunto sencillo de relaciones entre conceptos. Como estos conceptos pueden ser a su vez complejos, el programador retiene de ellos unicamente la información necesaria para entender sus relaciones con los demás conceptos."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://www.crazyrobot.net/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Crazyrobot Blog
+    </a>
+    <div class="flex-l items-center">
+      
+      
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  <div class="flex-l mt2 mw8 center">
+    <article class="center cf pv5 ph3 ph4-ns mw7">
+      <p class="f6 b helvetica tracked">
+        
+        POSTS
+      </p>
+      <h1 class="f1 athelas">
+        Abstracción sintactica
+      </h1>
+        
+        
+      <time class="f6 mv4 dib tracked" datetime="2010-03-19T18:35:39Z">
+        March 19, 2010
+      </time>
+      <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray">
+        <p style="text-align: center">
+  <div id="attachment_194" style="width: 333px" class="wp-caption aligncenter">
+    <a href="http://personal.network.crazyrobot.net/files/2010/03/joanmiro1.jpg"><img class="size-full wp-image-194 " src="http://personal.network.crazyrobot.net/files/2010/03/joanmiro1.jpg" alt="le coq" width="323" height="422" /></a>
+    
+    <p class="wp-caption-text">
+      Le Coq - Joan Miro
+    </p>
+  </div>
+  
+  <p>
+    Recordemos algunas nociones básicas.
+  </p>
+  
+
+<p><p>
+    La misión del desarrollador de software consiste en escribir programas que sean faciles de entender. Un programa es facil de entender cuando esta escrito como un conjunto sencillo de relaciones entre conceptos. Como estos conceptos pueden ser a su vez complejos, el programador retiene de ellos unicamente la información necesaria para entender sus relaciones con los demás conceptos. Cada concepto del programa principal es representado por otro pedazo del programa, escrito de manera similar. Este mecanismo de reducción del nivel de detalle de una parte del programa se conoce como <em>abstracción</em>.
+  </p></p>
+
+<p><p>
+    Si en un programa existen pedazos de código muy similares, el programador debe preguntarse si no existe un concepto implicito que merezca ser representado por una abstracción.
+  </p></p>
+
+<p><p>
+    Los dos tipos de abstracción mas conocidos son tal vez el <em>procedimiento</em>, que captura una serie de acciones, y los <em>ti</em><em>pos de datos</em>, que representan la entidades sobre las cuales un programa actua. Los diferentes tipos de abstracción permiten reducir la complejidad de los programas de diferentes maneras. Cada lenguaje de programación ofrece sus propios mecanismos de abstracción según el estilo de programación que promueven, por ejemplo funcional u orientado a objetos.
+  </p></p>
+
+<p><p style="text-align: center">
+    <div id="attachment_197" style="width: 386px" class="wp-caption aligncenter">
+      <a href="http://personal.network.crazyrobot.net/files/2010/03/Leger_railway_crossing.jpg"><img class="size-full wp-image-197 " src="http://personal.network.crazyrobot.net/files/2010/03/Leger_railway_crossing.jpg" alt="Railway Crossing" width="376" height="310" srcset="http://personal.network.crazyrobot.net/files/2010/03/Leger_railway_crossing-300x247.jpg 300w, http://personal.network.crazyrobot.net/files/2010/03/Leger_railway_crossing-363x300.jpg 363w, http://personal.network.crazyrobot.net/files/2010/03/Leger_railway_crossing.jpg 850w" sizes="(max-width: 376px) 100vw, 376px" /></a></p>
+
+<pre><code>  &lt;p class=&quot;wp-caption-text&quot;&gt;
+    Railway Crossing - Leger
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+  La &lt;em&gt;abstracción sintactica&lt;/em&gt; permite regrupar formas sintacticas similares. Para explicar a que me refiero con &amp;#8220;formas sintacticas similares&amp;#8221; daré un ejemplo. En el lenguaje java, en las versiones anteriores a 1.5, la manera mas familiar de iterar sobre un arreglo era escribir algo asi:
+&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;code&gt;&amp;lt;br /&gt;
+</code></pre>
+
+<p>int[] arreglo = {1,2,3};</code><code> </code>
+    </p></p>
+
+<pre><code>&lt;p&gt;
+  &lt;code&gt;for (int i = 0; i &amp;lt; arreglo.length ; i++){&amp;lt;br /&gt;
+</code></pre>
+
+<p>int var = arreglo[i];&lt;br /&gt;
+doSomethingWith(var);&lt;br /&gt;
+}&lt;br /&gt;
+</code>
+    </p></p>
+
+<pre><code>&lt;p&gt;
+  Al escribir código como este muchas veces, es obvio que hay algo que puede generalizarse. Java 1.5 ofrece la siguiente forma de escribir esto mismo:
+&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;code&gt;int[] arreglo = {1,2,3};&amp;lt;br /&gt;
+</code></pre>
+
+<p></code>
+    </p></p>
+
+<pre><code>&lt;p&gt;
+  &lt;code&gt;for (int var : arreglo){&amp;lt;br /&gt;
+</code></pre>
+
+<p>doSomethingWith(var);&lt;br /&gt;
+}</code>
+    </p></p>
+
+<pre><code>&lt;p&gt;
+  La ganancia en legibilidad es enorme cuando se tiene en cuenta el enorme número de iteraciones sobre un arreglo que pueden aparecer en un programa. Como java no ofrece soporte a la abstracción funcional, los programadores de java tuvimos que esperar hasta que los encargados de el lenguaje ofrecieran esta nueva forma de iterar sobre un arreglo, sin poder hacer nada al respecto. En un lenguaje como lisp que permite la abstracción sintactica el programador podría haber creado su propia versión de &amp;#8220;for&amp;#8221;, de considerarlo necesario. En lisp esto se hace gracias a un poderoso sistema de &lt;em&gt;macros&lt;/em&gt;.
+&lt;/p&gt;
+
+&lt;p&gt;
+  Veamos otro ejemplo, basado en common lisp pero explicado en pseudo código. Si imaginamos una librería que permita escribir lineas de texto a un archivo, su uso en un lenguaje tradicional se parecerá a esto:
+&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;code&gt;&amp;lt;br /&gt;
+</code></pre>
+
+<p>variable stream = open(&ldquo;archivo&rdquo;);&lt;br /&gt;
+try {&lt;br /&gt;
+print(stream, &ldquo;hello&rdquo;);&lt;br /&gt;
+print(stream, &ldquo;world&rdquo;);&lt;br /&gt;
+}&lt;br /&gt;
+finally {&lt;br /&gt;
+close(stream);&lt;br /&gt;
+}&lt;br /&gt;
+</code>
+    </p></p>
+
+<pre><code>&lt;p&gt;
+  Luego de escribir código parecido al anterior muchas veces, podemos imaginar lo conveniente que sería reducir lo anterior a una forma mas pura, algo parecido a esto:
+&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;code&gt;&amp;lt;br /&gt;
+</code></pre>
+
+<p>with-open-file (stream &ldquo;archivo&rdquo;) {&lt;br /&gt;
+stream.print(&ldquo;hello world&rdquo;);&lt;br /&gt;
+}</code>
+    </p></p>
+
+<pre><code>&lt;p&gt;
+  que &amp;#8220;esconda&amp;#8221; los detalles de captura de excepciones y de cerrar el &lt;em&gt;stream&lt;/em&gt; al final de su uso.
+&lt;/p&gt;
+
+&lt;p&gt;
+  En lisp existe un macro que hace exactamente eso. Pero el punto aquí no es que lisp soporte esta sintaxis sino que, de no existir, el programador podria introducirla sin ningun problema.
+&lt;/p&gt;
+</code></pre>
+
+      </section>
+      
+
+
+    </article>
+    <div class="ph3 mt2 mt6-ns">
+      
+
+
+
+
+
+
+
+  <div class="bg-light-gray pa3">
+    <ul>
+      <li class="list b mb3">
+        115 More Posts
+      </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2018/01/06/feel-lucky-punk/" class="link ph2 pv2 db black">
+            Do you feel lucky, punk?
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2018/01/03/pollo-frito-kentucky/" class="link ph2 pv2 db black">
+            Pollo Frito Kentucky
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2017/12/18/la-siesta/" class="link ph2 pv2 db black">
+            La siesta
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2017/11/05/como-peces-en-el-agua/" class="link ph2 pv2 db black">
+            Como peces en el agua
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2017/07/15/certezas/" class="link ph2 pv2 db black">
+            Certezas
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2017/06/23/los-jefes/" class="link ph2 pv2 db black">
+            Los jefes
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2017/05/01/demorado/" class="link ph2 pv2 db black">
+            Demorado
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2017/04/14/el-hombre-del-paleolitico/" class="link ph2 pv2 db black">
+            El hombre del paleolítico
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2017/02/24/sabiduria-del-resentimiento/" class="link ph2 pv2 db black">
+            Sabiduría del resentimiento
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2017/02/22/toys-r-us/" class="link ph2 pv2 db black">
+            Toys “R” Us
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2017/01/19/resoluciones-para-el-2017/" class="link ph2 pv2 db black">
+            Resoluciones para el 2017
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2017/01/03/juzgando-todo-el-mundo-en-el-bus/" class="link ph2 pv2 db black">
+            Juzgando a todo el mundo en el bus
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2016/12/28/oda-mis-perros/" class="link ph2 pv2 db black">
+            Oda a mis perros
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2016/12/27/vaqueros-y-piratas/" class="link ph2 pv2 db black">
+            Vaqueros y piratas
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2016/12/20/cuento-de-navidad/" class="link ph2 pv2 db black">
+            Cuento de navidad
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2016/12/14/libros-2016/" class="link ph2 pv2 db black">
+            Libros 2016
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2016/12/12/fin-del-mundo/" class="link ph2 pv2 db black">
+            Fin del mundo
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2016/12/09/algunas-notas-de-fin-de-ano/" class="link ph2 pv2 db black">
+            Laptop
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2016/10/23/mas-sobre-los-derechos/" class="link ph2 pv2 db black">
+            Más sobre los derechos
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2016/09/11/demografia/" class="link ph2 pv2 db black">
+            Demografía
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2016/07/25/el-futuro/" class="link ph2 pv2 db black">
+            El futuro
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2016/07/12/imagenes-de-los-suburbios/" class="link ph2 pv2 db black">
+            Imagenes
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2016/06/30/dianetica-brexit-hubris/" class="link ph2 pv2 db black">
+            Dianética, Brexit, Hubris
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2016/06/02/bronx/" class="link ph2 pv2 db black">
+            Bronx
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2016/05/12/2012/" class="link ph2 pv2 db black">
+            2012
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2016/04/17/educacion/" class="link ph2 pv2 db black">
+            Educación
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2016/04/11/tucidides/" class="link ph2 pv2 db black">
+            Tucídides
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2016/04/07/experimento/" class="link ph2 pv2 db black">
+            Experimento
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2016/03/21/links-y-cosas/" class="link ph2 pv2 db black">
+            Links y Cosas
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2016/03/02/meltdown/" class="link ph2 pv2 db black">
+            Meltdown
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2016/02/28/bernard-ii/" class="link ph2 pv2 db black">
+            Bernard II
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2016/02/19/b12/" class="link ph2 pv2 db black">
+            B12
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2016/02/16/otro-cuento-pintado/" class="link ph2 pv2 db black">
+            Otro cuento pintado
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2016/02/14/en-defensa-de-la-burocracia/" class="link ph2 pv2 db black">
+            En defensa de la burocracia
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2016/02/07/inhumanos/" class="link ph2 pv2 db black">
+            Inhumanos
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2016/02/04/robespierre/" class="link ph2 pv2 db black">
+            Robespierre
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2016/01/27/another-one-bites-dust/" class="link ph2 pv2 db black">
+            Another one bites the dust
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2016/01/03/pereza/" class="link ph2 pv2 db black">
+            Pereza
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2015/11/27/la-calle/" class="link ph2 pv2 db black">
+            La calle
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2015/10/06/fines-de-la-historia/" class="link ph2 pv2 db black">
+            Fin(es) de la historia
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2015/09/12/la-ladera/" class="link ph2 pv2 db black">
+            La Ladera
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2015/09/06/golden-bough/" class="link ph2 pv2 db black">
+            The golden bough
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2015/09/01/breve-comentario-con-respecto-la-amistad/" class="link ph2 pv2 db black">
+            Breve comentario con respecto a la amistad
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2015/08/26/instagram/" class="link ph2 pv2 db black">
+            Instagram
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2015/08/09/el-renacimiento-de-los-blogs/" class="link ph2 pv2 db black">
+            El renacimiento de los blogs
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2015/08/06/escenas-de-la-vida-cotidiana/" class="link ph2 pv2 db black">
+            Escenas de la vida cotidiana
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2015/07/24/thor/" class="link ph2 pv2 db black">
+            Thor
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2015/07/16/la-satisfaccion-del-deber-cumplido/" class="link ph2 pv2 db black">
+            La satisfacción del deber cumplido
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2015/06/30/el-amor-monstruo/" class="link ph2 pv2 db black">
+            El Amor Monstruo
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2015/06/25/viejos-jugando-petanca/" class="link ph2 pv2 db black">
+            Viejos jugando petanca
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2015/06/23/los-muertos-vivientes/" class="link ph2 pv2 db black">
+            Los muertos vivientes
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2014/06/11/sobre-el-carro/" class="link ph2 pv2 db black">
+            Sobre el carro
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2014/02/26/idea-de-un-servicio-basico-de-internet/" class="link ph2 pv2 db black">
+            Un sistema universal de timestamps
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2014/01/30/bel-dame-apocrypha/" class="link ph2 pv2 db black">
+            Bel Dame Apocrypha
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2014/01/02/libros-2013/" class="link ph2 pv2 db black">
+            Libros 2013
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2013/10/27/criticando-al-profesor-cuero/" class="link ph2 pv2 db black">
+            Criticando al profesor Cuero
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2013/10/17/921/" class="link ph2 pv2 db black">
+            Big Money
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2013/08/12/914/" class="link ph2 pv2 db black">
+            
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2013/08/06/atrapado-en-gmail/" class="link ph2 pv2 db black">
+            Atrapado en Gmail
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2013/04/03/the-book-of-the-new-sun/" class="link ph2 pv2 db black">
+            The Book Of The New Sun, de Gene Wolfe
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2013/03/14/fin-de-google-reader-pensamientos-desordenados/" class="link ph2 pv2 db black">
+            Fin de Google Reader, pensamientos desordenados
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2012/11/22/how-to-live-without-irony/" class="link ph2 pv2 db black">
+            “How to Live Without Irony”
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2012/10/18/google-seguridad-two-phase-authentication-etc/" class="link ph2 pv2 db black">
+            google, seguridad, “two-phase authentication”, etc
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2012/10/11/798/" class="link ph2 pv2 db black">
+            Chomksy y el ateismo militante
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2012/10/10/libros/" class="link ph2 pv2 db black">
+            Libros
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2012/10/05/seb/" class="link ph2 pv2 db black">
+            Seb
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2012/09/24/sobre-la-columna-de-javier/" class="link ph2 pv2 db black">
+            Sobre la columna de Javier
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2012/09/19/sistemas-operativos/" class="link ph2 pv2 db black">
+            Sistemas Operativos
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2012/09/07/el-mensaje/" class="link ph2 pv2 db black">
+            Fantasmagoría (cuento)
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2012/08/25/normal/" class="link ph2 pv2 db black">
+            Normal
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2012/08/23/631/" class="link ph2 pv2 db black">
+            Servicio social
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2012/08/22/conceptos/" class="link ph2 pv2 db black">
+            Conceptos
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2012/08/20/twitter-caso-de-estudio/" class="link ph2 pv2 db black">
+            Twitter, caso de estudio
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2012/03/14/commodore-64/" class="link ph2 pv2 db black">
+            Commodore 64
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2012/02/13/sobre-las-corridas-de-toros-y-el-consumo-de-carne/" class="link ph2 pv2 db black">
+            Sobre las corridas de toros y el consumo de carne
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2012/01/30/la-literatura-fantastica-envejece-mal/" class="link ph2 pv2 db black">
+            La literatura fantastica envejece mal
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2011/09/28/duna/" class="link ph2 pv2 db black">
+            Duna
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2011/08/03/presencia-pasiva-en-las-redes-sociales/" class="link ph2 pv2 db black">
+            Presencia pasiva en las redes sociales
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2011/07/12/pixelart-to-vector/" class="link ph2 pv2 db black">
+            PixelArt fun
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2011/05/21/calcio/" class="link ph2 pv2 db black">
+            ¡Calcio!
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2011/05/10/how-to-extend-oasis-montaj-using-c/" class="link ph2 pv2 db black">
+            How to extend Oasis Montaj using C#
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2011/03/04/tweetmix/" class="link ph2 pv2 db black">
+            TweetMix
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2011/01/10/the-truth-about-lisp/" class="link ph2 pv2 db black">
+            The truth about Lisp
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2010/12/17/a-game-of-thrones/" class="link ph2 pv2 db black">
+            A Game of Thrones
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2010/12/02/ventanas-dialogos-botones/" class="link ph2 pv2 db black">
+            Ventanas, Dialogos, Botones
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2010/11/09/best-of-twitter-volumen-2/" class="link ph2 pv2 db black">
+            Best of Twitter – volumen 2
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2010/11/02/stackoverflow/" class="link ph2 pv2 db black">
+            StackOverflow
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2010/10/29/best-of-twitter-volumen-1/" class="link ph2 pv2 db black">
+            Best of Twitter – volumen 1
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2010/10/13/fin-de-gacetilla/" class="link ph2 pv2 db black">
+            Fin de gacetilla
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2010/09/29/c-sharp/" class="link ph2 pv2 db black">
+            C-sharp
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2010/09/11/nuevo-trabajo/" class="link ph2 pv2 db black">
+            Nuevo trabajo
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2010/08/15/critica-de-los-ides-segunda-parte/" class="link ph2 pv2 db black">
+            Crítica de los IDEs (segunda parte)
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2010/08/13/critica-de-los-ides/" class="link ph2 pv2 db black">
+            Crítica de los IDEs
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2010/07/29/entrevista-a-rms/" class="link ph2 pv2 db black">
+            Entrevista a RMS
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2010/07/19/jack-of-all-trades-master-of-none/" class="link ph2 pv2 db black">
+            Jack of all trades (master of none)
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2010/07/13/277/" class="link ph2 pv2 db black">
+            Ventanas rotas
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2010/06/03/elecciones-en-colombia-2010-mi-opinion/" class="link ph2 pv2 db black">
+            Elecciones en Colombia 2010, mi opinión
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2010/05/28/prototipos/" class="link ph2 pv2 db black">
+            Prototipos
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2010/05/12/ipod-un-review/" class="link ph2 pv2 db black">
+            iPod: un review
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2010/05/03/coders-at-work/" class="link ph2 pv2 db black">
+            “Coders at Work”
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2010/04/23/seo-el-nuevo-anti-virus/" class="link ph2 pv2 db black">
+            SEO: el nuevo anti-virus
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2010/04/15/mas-sobre-el-ipad/" class="link ph2 pv2 db black">
+            Mas sobre el iPad
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2010/04/08/leyendo-codigo-fuente/" class="link ph2 pv2 db black">
+            Leyendo código fuente
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2010/04/02/tinkering-bricolaje-cacharreo/" class="link ph2 pv2 db black">
+            ‘Tinkering’, bricolaje, cacharreo
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2010/03/26/twitter-as-simple-as-possible-but-not-simpler/" class="link ph2 pv2 db black">
+            Twitter: “as simple as possible, but not simpler”
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2010/03/19/abstraccion-sintactica/" class="link ph2 pv2 db black o-50">
+            Abstracción sintactica
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2010/03/12/programacion-interactiva/" class="link ph2 pv2 db black">
+            Programación interactiva
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2010/03/05/sobre-la-importancia-de-saber-programar-en-c/" class="link ph2 pv2 db black">
+            Sobre la importancia de saber programar en C
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2010/03/04/buen-diseno/" class="link ph2 pv2 db black">
+            Buen diseño
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2010/02/27/92/" class="link ph2 pv2 db black">
+            Uribe se entera de que la corte no aprobó el referendo
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2010/02/22/diferentes-trabajos-en-programacion/" class="link ph2 pv2 db black">
+            Diferentes trabajos en programación
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2010/02/14/sobre-la-metida-de-pata-de-buzz/" class="link ph2 pv2 db black">
+            Sobre la metida de pata de Buzz
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2010/02/12/dos-herramientas-recomendadas/" class="link ph2 pv2 db black">
+            Dos herramientas recomendadas
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2010/02/03/menos-es-mas/" class="link ph2 pv2 db black">
+            Menos es más
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2010/01/25/por-que-no-creo-que-el-iphone-el-itablet-y-la-appstore-sean-la-plataforma-del-futuro/" class="link ph2 pv2 db black">
+            Por qué no creo que el iPhone, el iTablet y la AppStore sean la plataforma del futuro
+          </a>
+        </li>
+      
+        <li class="list f5 w-100 hover-bg-white nl1">
+          
+          <a href="/2010/01/18/nuevo-blog/" class="link ph2 pv2 db black">
+            Nuevo blog
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+
+
+    </div>
+  </div>
+
+    </main>
+    <footer class="bg-near-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://www.crazyrobot.net/" >
+    &copy; 2018 Crazyrobot Blog
+  </a>
+  
+
+
+
+
+
+
+
+
+  </div>
+</footer>
+
+    <script src="http://www.crazyrobot.net/dist/app.bundle.js" async></script>
+
+  </body>
+</html>

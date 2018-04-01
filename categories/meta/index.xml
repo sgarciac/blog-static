@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meta on Crazyrobot Blog</title>
+    <link>http://www.crazyrobot.net/categories/meta/</link>
+    <description>Recent content in Meta on Crazyrobot Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Nov 2012 13:54:33 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.crazyrobot.net/categories/meta/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>“How to Live Without Irony”</title>
+      <link>http://www.crazyrobot.net/2012/11/22/how-to-live-without-irony/</link>
+      <pubDate>Thu, 22 Nov 2012 13:54:33 +0000</pubDate>
+      
+      <guid>http://www.crazyrobot.net/2012/11/22/how-to-live-without-irony/</guid>
+      <description>[quote]Take, for example, an ad that calls itself an ad, makes fun of its own format, and attempts to lure its target market to laugh at and with it. It pre-emptively acknowledges its own failure to accomplish anything meaningful. No attack can be set against it, as it has already conquered itself. The ironic frame functions as a shield against criticism. The same goes for ironic living. Irony is the most self-defensive mode, as it allows a person to dodge responsibility for his or her choices, aesthetic and otherwise.</description>
+    </item>
+    
+    <item>
+      <title>Servicio social</title>
+      <link>http://www.crazyrobot.net/2012/08/23/631/</link>
+      <pubDate>Thu, 23 Aug 2012 19:41:49 +0000</pubDate>
+      
+      <guid>http://www.crazyrobot.net/2012/08/23/631/</guid>
+      <description>Regresa el blog de Juan Camilo.</description>
+    </item>
+    
+    <item>
+      <title>Nuevo blog</title>
+      <link>http://www.crazyrobot.net/2010/01/18/nuevo-blog/</link>
+      <pubDate>Mon, 18 Jan 2010 01:32:48 +0000</pubDate>
+      
+      <guid>http://www.crazyrobot.net/2010/01/18/nuevo-blog/</guid>
+      <description>Bienvenidos a mi nuevo blog. Este fué mi último post en mi antiguo blog. Preparense a recibir más de lo mismo: frecuencia de publicación variable, escritos superficiales sobre internet, tecnología, política, cultura, arte, literatura, cine y otros temas de interés general.</description>
+    </item>
+    
+  </channel>
+</rss>
