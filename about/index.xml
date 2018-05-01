@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Crazyrobot Blog</title>
+    <link>http://blog.crazyrobot.net/about/</link>
+    <description>Recent content in Abouts on Crazyrobot Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Jan 2010 20:41:57 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.crazyrobot.net/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>http://blog.crazyrobot.net/about/</link>
+      <pubDate>Sun, 17 Jan 2010 20:41:57 +0000</pubDate>
+      
+      <guid>http://blog.crazyrobot.net/about/</guid>
+      <description>My name is Sergio Garcia. I was born on june, 1977, in Bogota, Colombia. I love programming, an activity that never ceases to amaze me. My feelings towards programming are well reflected by this quote, by Richard Peter Gabriel: To be alive at the start of a new field &amp;#8211; what a treasure. [&amp;#8230;] We are coming to realize that computing is not like any single other thing people do. It&amp;#8217;s a little like science, mathematics, engineering, a little like art, architecture, writing, horticulture, and a lot like a long, unplanned journey.</description>
+    </item>
+    
+  </channel>
+</rss>
