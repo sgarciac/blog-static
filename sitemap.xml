@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://blog.crazyrobot.net/posts/2018-11-23-la-olla-de-espagueti/</loc>
+    <lastmod>2018-11-23T19:17:13-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.crazyrobot.net/posts/2018-04-30-las-12-leyes-de-jordan-peterson/</loc>
     <lastmod>2018-04-30T20:38:50-04:00</lastmod>
   </url>
@@ -604,7 +609,7 @@
   
   <url>
     <loc>http://blog.crazyrobot.net/</loc>
-    <lastmod>2018-04-30T20:38:50-04:00</lastmod>
+    <lastmod>2018-11-23T19:17:13-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -652,7 +657,7 @@
   
   <url>
     <loc>http://blog.crazyrobot.net/posts/</loc>
-    <lastmod>2018-04-30T20:38:50-04:00</lastmod>
+    <lastmod>2018-11-23T19:17:13-05:00</lastmod>
     <priority>0</priority>
   </url>
   
